@@ -1,0 +1,78 @@
+.topsec{
+    background-color: black;
+    padding:2em 8em;
+    height:14em;
+  
+
+}
+
+
+.navbar-nav .nav-link{
+    font-size: 1.5em;
+}
+.navbar-brand{
+    padding:0;    
+}
+
+.navbar-brand img {
+    max-width: 50em;
+}
+.hero2{
+    display: flex;
+    background-color: black;
+    padding: 8em;
+   
+}
+
+.hero2 h1{
+    color: white;
+    
+}
+.hero2 p {
+    color: white;
+    font-size:1.5em;
+    line-height: 2em;
+}
+.box{
+    padding: 0em 4em;
+    color:white !important;
+}
+/* .bg-black {
+    background-color: #000;
+} */
+.hero3{
+    padding:8em;
+    text-align: center;
+}
+.hero3 h1{
+    padding: 2em;
+}
+.hero3 p{
+    font-size:1.5em;
+    line-height: 2em;
+
+}
+/* <----------products----> */
+.hero2.product{
+    display: block !important;
+    
+}
+.hero2.product h1 {
+    color:grey;
+    padding-bottom:1em;
+   
+    
+}
+.hero2.product p {
+    color:grey;
+   
+  
+}
+.hero3.product{
+    display: flex;
+    
+
+   
+  
+}
+
