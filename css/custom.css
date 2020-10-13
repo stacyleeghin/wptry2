@@ -17,10 +17,15 @@
 .navbar-brand img {
     max-width: 50em;
 }
+.container-fluid.features{
+   padding:0 !important;
+  
+}
 .hero2{
     display: flex;
     background-color: black;
     padding: 8em;
+    width: 100%;
    
 }
 
