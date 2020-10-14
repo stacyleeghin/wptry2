@@ -2,10 +2,30 @@
     background-color: black;
     padding:2em 8em;
     height:14em;
+    display: flex;
+    position: relative;
   
-
 }
 
+.phonenumber i{
+
+    font-size: 4rem;
+    color:blue;
+    margin-right:1rem;
+    /* position: absolute; */
+    /* right:20%;
+    top:30%; */
+
+}
+.phonenumber h2{
+
+    font-size: 2.5em;
+    color:blue;
+    position: absolute;
+    right:10%;
+    top:30%;
+    
+}
 
 .navbar-nav .nav-link{
     font-size: 1em;
@@ -60,13 +80,23 @@
 
 }
 /* <----------products----> */
+.hero.product1 h1{
+    text-align: center;
+    padding:2em;
+    font-size:3.5em;
+    background-image: url(../img/banner/gallerybanner.png);
+    color:white;
+    margin:0;
+}
 .hero2.product{
     display: block !important;
     
+    
 }
+
 .hero2.product h1 {
     color:grey;
-    padding-bottom:1em;
+    padding:1em;
    
     
 }
@@ -82,10 +112,15 @@
    
   
 }
-/* gallery */
+/*--------------testimonial-----------*/
 .single-testimonial-area{
  padding: none !important;
  background-image: none;
+
+}
+.single-testimonial-area.container{
+
+    
 
 }
 #single-testimonial-item{
@@ -97,10 +132,62 @@
     background-color:grey;
  
 } */
+
 blockquote{
+    line-height: 1em;
     color:rgb(245, 241, 241) !important;
+    font-size:2em !important;
 }
 .fa-bars{
     color:white;
 }
+.owl-buttons .fa{
+    font-size: 4em !important;
+    
+}
+/* -----------------gallery---------------- */
+#portfolio{
+    padding:0!important;
+    margin:0 !important;
+}
+.wrapper {
+    padding-bottom:0;
+}
+/* <--------contact-----------> */
 
+.row.contact{
+    padding:5em;
+    padding-left:5em !important;
+    
+
+}
+.contact .col-lg-8{
+    padding: 10em;
+}
+.contact.col-lg-4{
+    padding: 10em;
+  
+}
+/* ------------global-------------- */
+.contact .btn{
+    color:blue;
+    border: thin blue solid;
+}
+button:hover{
+    color:rgb(98, 98, 137);
+   
+}
+a.nav-link:hover{
+    color:rgb(123, 123, 238) !important;
+}
+
+.btn-default-filled, .btn-default-filled:active, .btn-default-filled:focus {
+    color: #fff;
+    background: rgb(95, 95, 114);
+    border: 2px solid #cecacb;
+    border-radius:3px;
+}
+.btn-common, .btn-common:active, .btn-common:focus {
+    color:#fff;
+    border: 2px solid  #cecacb;
+    background: transparent;
